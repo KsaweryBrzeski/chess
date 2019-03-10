@@ -2,7 +2,8 @@
 #include <iostream>
 
 int main() {
-  Figure test('A', '1');
-  std::cout<<test.x<<test.y<<std::endl;
+  Chessboard currentChessboard;
+  currentChessboard.initialize();
+  currentChessboard.print();
   return 0;
 }
